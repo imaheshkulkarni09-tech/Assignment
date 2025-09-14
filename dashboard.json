@@ -1,0 +1,70 @@
+{
+  "dashboard": {
+    "categories": [
+      {
+        "id": "cspmExecutiveDashboard",
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": "cloudAccounts",
+            "name": "Cloud Accounts",
+            "type": "chart",
+            "data": "Cloud Accounts Data - Connected: 2, Total: 2"
+          },
+          {
+            "id": "cloudAccountRiskAssessment",
+            "name": "Cloud Account Risk Assessment",
+            "type": "chart",
+            "data": "Cloud Account Risk Assessment Data - Score: 9659"
+          }
+        ]
+      },
+      {
+        "id": "cwppDashboard",
+        "name": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "top5NamespaceSpecificAlerts",
+            "name": "Top 5 Namespace Specific Alerts",
+            "type": "text",
+            "data": "No Graph data available!"
+          },
+          {
+            "id": "workloadAlerts",
+            "name": "Workload Alerts",
+            "type": "text",
+            "data": "No Graph data available!"
+          }
+        ]
+      },
+      {
+        "id": "registryScan",
+        "name": "Registry Scan",
+        "widgets": [
+          {
+            "id": "imageRiskAssessment",
+            "name": "Image Risk Assessment",
+            "type": "text",
+            "data": "1470 Total vulnerabilities"
+          },
+          {
+            "id": "imageSecurityIssues",
+            "name": "Image Security Issues",
+            "type": "text",
+            "data": "2 Total images"
+          }
+        ]
+      }
+    ],
+    "availableWidgets": [
+      { "id": "cloudAccounts", "name": "Cloud Accounts", "category": "CSPM" },
+      { "id": "cloudAccountRiskAssessment", "name": "Cloud Account Risk Assessment", "category": "CSPM" },
+      { "id": "top5NamespaceSpecificAlerts", "name": "Top 5 Namespace Specific Alerts", "category": "CWPP" },
+      { "id": "workloadAlerts", "name": "Workload Alerts", "category": "CWPP" },
+      { "id": "imageRiskAssessment", "name": "Image Risk Assessment", "category": "Registry Scan" },
+      { "id": "imageSecurityIssues", "name": "Image Security Issues", "category": "Registry Scan" },
+      { "id": "newWidgetImage", "name": "Image Widget", "category": "Image" },
+      { "id": "newWidgetTicket", "name": "Ticket Widget", "category": "Ticket" }
+    ]
+  }
+}
